@@ -9,11 +9,10 @@ setup(
   author = 'Artyom Yesayan',
   author_email = 'yesart8@gmail.com',
   url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Rkaid0/SimpleNode/archive/refs/tags/v_0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Rkaid0/SimpleNode/archive/refs/tags/v_0.1.tar.gz',
   keywords = ['NeuralNetwork', 'GradientDescent', 'AI'],
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[
+          'numpy'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
