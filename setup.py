@@ -8,6 +8,7 @@ setup(
   description = 'Package for working with Neural Networks for small projects',
   author = 'Artyom Yesayan',
   author_email = 'yesart8@gmail.com',
+  long_description_content_type = 'text/markdown'
   url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/Rkaid0/SimpleNode/archive/refs/tags/v_0.1.tar.gz',
   keywords = ['NeuralNetwork', 'GradientDescent', 'AI'],
