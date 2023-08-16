@@ -2,7 +2,7 @@
 
 SimpleNode is a small package for working with Neural Networks in python
 
-### Features
+## Features
 
 - Easily create a Neural Network
 - Create Labled Data

@@ -26,5 +26,3 @@ class ActivationFunctions:
             pass
 
     IdentifierDict = {0 : Sigmoid}
-
-#Hello
