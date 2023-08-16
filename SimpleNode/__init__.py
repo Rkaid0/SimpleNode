@@ -1,3 +1,3 @@
-import NeuralNetwork
-import ActivationFunctions
-import LabledData
+from SimpleNode.NeuralNetwork import NeuralNetwork
+from SimpleNode.ActivationFunctions import ActivationFunctions
+from SimpleNode.LabledData import LabledData
