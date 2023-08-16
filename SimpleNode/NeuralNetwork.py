@@ -1,8 +1,8 @@
 import numpy as np
 import json
 
-import ActivationFunctions
-import Layer
+from SimpleNode.ActivationFunctions import ActivationFunctions
+from SimpleNode.Layer import Layer
     
 class NeuralNetwork:
     def __init__ (self, layerLayout, activationFunctionClass):
