@@ -9,9 +9,8 @@ class ActivationFunctions:
         def Function (input):
             return 1.0 / (1.0 + np.exp(-input))
         
-        def WeightInitiation (numNodesIn, numNodesOut, seed = time()):
+        def WeightInitiation (numNodesIn, numNodesOut):
             weights = []
-            random.seed(seed)
 
             for row in range(numNodesIn):
                 weights.append([])
