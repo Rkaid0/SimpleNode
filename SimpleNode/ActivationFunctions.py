@@ -1,6 +1,5 @@
 import numpy as np
-from time import time
-from random import random
+import random
 
 class ActivationFunctions:
     class Sigmoid:
