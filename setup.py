@@ -6,7 +6,7 @@ with open("README.md", 'r') as file:
 setup(
   name = 'SimpleNode',
   packages = ['SimpleNode'],
-  version = '0.4a3',
+  version = '0.4a4',
   license='MIT',
   description = 'Package for working with Neural Networks for small projects',
   long_description_content_type = "text/markdown",
