@@ -23,6 +23,7 @@ class Layer:
             Outputs[nodeOut] += self.biases[nodeOut]
 
             for nodeIn in range(self.numNodesIn):
+                print(f"in: {inputs[nodeIn]}, we: {self.weights[nodeIn][nodeOut]}")
                 Outputs[nodeOut] += inputs[nodeIn] * self.weights[nodeIn][nodeOut]
                 
             Outputs[nodeOut] = self.activationFunctionClass.Function(Outputs[nodeOut])
