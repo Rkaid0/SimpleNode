@@ -26,10 +26,10 @@ Network = NeuralNetwork([2, 3, 2])
 Network.Learn(x, y, 10, 1)
 
 // Save Network
-Network.SaveNetwork("MyNewtwork.csv")
+Network.SaveNetwork("MyNetwork.csv")
 
 // Predict
-Network.Predict([1, 0])
+print( Network.Predict([1, 0]) )
 ```
 
 Created by Artyom Yesayan
